@@ -64,3 +64,6 @@ footer{border-top:1px solid #eee;padding:25px 0}
   .profile-photo{width:145px;height:180px;border-radius:18px}
   .two-col h2,.section-heading h2,.booking h2{font-size:30px}
 }
+
+.profile-photo{width:180px;height:180px;margin:0 auto 22px;border-radius:50%;object-fit:cover;object-position:center top;display:block}
+@media(max-width:480px){.profile-photo{width:145px;height:145px}}
